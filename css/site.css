@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body,
+html {
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nv-logo {
+    height: 110px;
+    width: 120px;
+    cursor: pointer;
+    margin-left: 5em;
+}
+
+.top-bar {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.left-top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    gap: 2em;
+    margin-left: 1em;
+}
+
+.fa {
+    margin-left: .5em;
+    cursor: pointer;
+}
+
+.fa-magnifying-glass {
+    margin-left: 3em;
+}
+
+.fa-user {
+    margin-right: 5em;
+}
+
+.row-header-text {
+    color: #84C01A;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
+
+.landingpagebody-shop {
+    margin-top: 7rem;
+}
+
+.landingpagebody-gaming {
+    margin-bottom: 4rem;
+}
+
+.rtx, .backtoschool, .gfn, .bold-img, .b-field, .gotg, .dl2, .reflex {
+    height: 140px;
+    width: 250px;
+}
+
+h3 {
+    color: #84C01A;
+    text-align: center;
+    font-size: 16px;
+}
+
+h3 a {
+    text-decoration: none;
+    color: #84C01A
+}
+
+p {
+    font-size: 12px;
+    padding: 10px;
+}
+
+.shop-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.shop-cards-1 {
+    background-color: white;
+    width: 250px;
+    margin-right: 1em;
+}
+
+.shop-cards-2 {
+    background-color: white;
+    width: 250px;
+    margin-right: 1em;
+}
+
+.shop-cards-3 {
+    background-color: white;
+    width: 250px;
+    margin-right: 1em;
+}
+
+.shop-cards-4 {
+    background-color: white;
+    width: 250px;
+    margin-right: 1em;
+}
+
+footer {
+    background-color: #3A3B35;
+    text-align: center;
+    align-items: center;
+    margin-top: 1.5em;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    flex-direction: row;
+}
+footer p{
+    color: white;
+    margin-left: 10em;
+    /* text-align: center; */
+}
+
+button{
+    color: white;
+    cursor: pointer;
+}
+
+.accept-box {
+    background-color: #84C01A;
+    margin-left: 3.5em;
+    padding: 10px;
+    width: 125px;
+}
+.accept-box button {
+    margin: 0;
+    color: white;
+}
